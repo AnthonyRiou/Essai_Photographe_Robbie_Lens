@@ -46,13 +46,24 @@ section {
     align-items : center;
     /*_*/
 }
+.picture{
+    position : relative;
+}
 .picture>img {
     width: 50%;
     display: flex;
     justify-content : space-around;
-    border-right: 1px #8e86b5 solid;
-    border-bottom: 1px #8e86b5 solid;
+    border: solid 28px #1f2039;
     /*_*/
+}
+.coin{
+    top : 502px;
+    left  : 495px;
+    position : absolute;
+    height : 150px;
+    width : 150px;
+    Background-color : #8e86b5;
+    z-index: -20; 
 }
 p { 
     color: #F9F8FF;
