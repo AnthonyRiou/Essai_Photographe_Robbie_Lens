@@ -1,0 +1,219 @@
+body {
+    background-color: #1f2039;
+
+}
+/*ajout commentaire 
+    sur plusieurs lignes */
+header {
+    padding: 20px 50px 20px 50px;
+    background-color :  #F9F8FF;
+    display:flex;
+    /* _ */
+}
+.logohaut {
+    background-color: #F9F8FF;
+    border: 1px #f9f8ff solid;
+    border-radius: 2px;
+ }  
+ .logohaut:hover {
+    opacity: 0.5;
+ }
+.entete1,
+.entete2 {
+    width : 50%;
+}
+.entete2 {
+    display: flex;
+    width : 50%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /*_*/    
+}
+section {
+    padding: 80px;
+}
+.principal {
+    display : flex;
+}
+.paragraph,
+.picture {
+    width : 50%;
+}
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content : space-around;
+    align-items : center;
+    /*_*/
+}
+.picture {
+    position : relative;
+}
+.picture img {
+    width: 50%;
+    display: flex;
+    justify-content : space-around;
+    border: solid 28px #1f2039;
+    /*_*/
+}
+.coin{
+    top : 242.5px;
+    left  : 238px;
+    position : absolute;
+    height : 150px;
+    width : 150px;
+    Background-color : #8e86b5;
+    z-index: -20; 
+    /*_*/
+}
+p { 
+    color: #F9F8FF;
+}
+p {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* _ */
+}
+.title {
+    color:  #a5b4fc;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif ;
+    /* _ */
+}
+.p2 {
+    font-size: medium;
+}
+.important {
+    color: #a5b4fc;
+}
+.p3 {
+    font-style: italic;
+    text-decoration: none;
+    color : black;
+    font-size : em;
+    justify-content: center;
+    /* _ */
+}
+.p3:hover {
+    text-decoration : underline
+}
+.writeme {
+    font-weight: lighter;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #f9f8ff;
+    padding : 20px 35px 20px 35px;
+    border: 1px #f9f8ff solid;
+    background-color: #a5b4fc;
+    border-radius: 50px;
+    /* _ */
+}
+.mon_dernier_projet {
+    font-style: normal;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    background-color: #F9F8FF;
+    padding: 30px 50px 120px 50px;
+    margin: auto;
+    /* _ */
+}
+.portfolio {
+    font-style:normal;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #f9f8ff;
+    padding : 5px 15px 5px 15px;
+    border: 1px #f9f8ff solid;
+    background-color: #a5b4fc;
+    border-radius: 50px;
+    /* _ */
+}    
+
+.p4:hover {
+    text-decoration:underline
+}
+.p5 {
+    background-color: #F9F8FF;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #a5b4fc;
+    font-size: 25px;
+    /*_*/
+}
+
+.parlons_de_votre_projet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    /*_*/
+}
+
+.formulaire {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    /*_*/
+}
+
+textarea {
+    width: 31em;
+    height: 15em;
+}
+
+input {
+    width: 15em;
+    height: 3em;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+    background-color: #a5b4fc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em ;
+    padding: 0.5em 5em 0.5em 5em;
+    margin: auto;
+    margin-top: 2em;
+    /*_*/
+}
+
+.footer1,
+.footer2 {
+    width: 50%;
+}
+footer {
+    display: flex;
+    background-color: #F9F8FF ;
+    /*_*/
+}
+.footer1 {
+display: flex;
+padding: 5px 5px 5px 5px;
+}
+
+.footer2 {
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    justify-content: end;
+}
+

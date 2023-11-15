@@ -1,0 +1,148 @@
+body {
+    background-color: #1f2039;
+
+}
+/*ajout commentaire 
+    sur plusieurs lignes */
+header {
+    padding: 20px 50px 20px 50px;
+    background-color :  #F9F8FF;
+    display:flex;
+    /* _ */
+}
+.logohaut {
+    background-color: #F9F8FF;
+    border: 1px #f9f8ff solid;
+    border-radius: 2px;
+ }  
+ .logohaut:hover {
+    opacity: 0.5;
+ }
+
+.entete1,
+.entete2 {
+    width : 50%;
+    display: flex;
+}
+.entete2 {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    /*_*/
+}
+
+.title {
+    display:flex;
+    color: #a5b4fc;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif ;
+    width: 33%;
+    justify-content: center;
+    padding: 1.7em;
+    padding-left: 2.6em;
+    font-weight: 100;
+    /* _ */
+}
+
+.photo1,
+.photo2 {
+    background-color: white;
+}
+.title2,
+.title3 {
+    display:flex;
+    color: black;
+    background-color: white ;
+    width: 33%;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif ;
+    justify-content: center;
+    padding: 1.7em;
+    padding-left: 4.3em;
+    font-weight: 100;
+    /* _ */  
+}
+
+.grid_paysages,
+.grid_portraits {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300xpx 300px;
+    justify-content: center;
+    gap: 15px;
+    padding: 4em;
+    /* _ */
+}
+
+.grid_portraits img,
+.grid_paysages img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.photo-hover {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: contents;
+    /*_*/
+}
+
+.photo-hover:hover {
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    /*_*/
+}
+
+
+.conteneur.photo.lien {
+    position: absolute;
+}
+
+
+.espace-vide {
+    color: #1f2039;
+    background-color: #1f2039;
+}
+
+p {
+    color: #1f2039;
+    background-color: #1f2039;
+}
+
+.footer1,
+.footer2 {
+    width: 50%;
+}
+footer {
+    display: flex;
+    background-color: #F9F8FF ;
+    /*_*/
+}
+.footer1 {
+display: flex;
+padding: 5px 5px 5px 5px;
+}
+
+.footer2 {
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    justify-content: end;
+}

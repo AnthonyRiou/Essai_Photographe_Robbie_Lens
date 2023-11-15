@@ -1,0 +1,137 @@
+body {
+    background-color: #1f2039;
+
+}
+/*ajout commentaire 
+    sur plusieurs lignes */
+header {
+    padding: 20px 50px 20px 50px;
+    background-color :  #F9F8FF;
+    display:flex;
+    /* _ */
+}
+.logohaut {
+    background-color: #F9F8FF;
+    border: 1px #f9f8ff solid;
+    border-radius: 2px;
+ }  
+ .logohaut:hover {
+    opacity: 0.5;
+ }
+
+.entete1,
+.entete2 {
+    width : 50%;
+    display: flex;
+}
+.entete2 {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    /*_*/
+}
+
+.entête {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 80px;
+    /*_*/
+}
+
+.tarifs, 
+.contact {
+    width: 50%;
+}
+
+.tarifs {
+    font-weight: 100;
+    color: #a5b4fc;
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    /* _ */
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    font-style:normal;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #f9f8ff;
+    padding : 15px 35px 15px 35px;
+    border: 1px #f9f8ff solid;
+    background-color: #a5b4fc;
+    border-radius: 50px;
+    /* _ */
+}
+
+table {
+    margin: auto;
+    border-collapse: collapse;
+    /*_*/
+}
+
+caption{
+    display: flex;
+    justify-content: left ;
+    color: #a5b4fc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    /*_*/
+}
+
+th {
+    border: solid 1px #a5b4fc;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding: 5px;
+    /*_*/
+}
+
+td {
+    border: solid 1px #a5b4fc;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    padding: 45px;
+    /*_*/
+}
+
+.espace-vide {
+    color: #1f2039;
+    background-color: #1f2039;
+}
+
+p {
+    color: #1f2039;
+    background-color: #1f2039;
+}
+
+.footer1,
+.footer2 {
+    width: 50%;
+}
+footer {
+    display: flex;
+    background-color: #F9F8FF ;
+    /*_*/
+}
+.footer1 {
+display: flex;
+padding: 5px 5px 5px 5px;
+}
+
+.footer2 {
+    display: flex;
+    padding: 5px 5px 5px 5px;
+    justify-content: end;
+}
